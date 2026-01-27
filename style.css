@@ -1,0 +1,130 @@
+.brand{
+    color:red;
+    font-weight: bold;
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+/*
+    border: 2px;
+    border: solid;
+    border-color: black;
+*/
+    margin-top: 0;
+    padding-left: 1rem;
+    padding-top:4px;
+    margin-bottom:5px;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;  
+    border-left:0px;
+    border-right:0px;
+    border-top:0px;
+    border-bottom:1px;
+    border-color:black;
+    border-style:solid;
+    margin-bottom:5px;
+}
+
+.navclass{
+    display:flex;
+    padding-top: 10px;
+    gap:1rem;  
+}
+
+.navclassitems{    
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    padding-right: 1rem;
+    padding-top:5px;
+}
+
+.navclassitems:hover {
+  text-decoration: underline;
+  color:blue;
+}
+
+html, body {
+  height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column; 
+}
+
+main{
+    display:flex;
+    justify-content: space-between;  
+    gap:1rem;
+    flex-grow:1;    
+}
+
+h1 {
+    margin-top: 0;
+}
+
+article{
+    padding-right: 1rem;
+}
+
+aside ul{
+    margin-top: 0;    
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 1rem;
+    
+}
+
+aside li{
+    background-color:red;
+    color:white;
+    border-radius:3px;
+    padding:5px;
+    width: 75px;
+}
+
+aside li:hover {
+  background-color: darkred;
+}
+
+.testimonial{
+    background-color: lightgrey;
+    margin: 0;
+    padding: 1rem;
+    
+}
+
+blockquote{
+    margin: 0;
+    width:100%;
+    font-style: italic;
+}
+
+figcaption{
+    font-style: italic;
+}
+
+
+body{
+    margin:0;
+
+}
+footer{
+    padding:0;
+    margin:0;
+    padding-bottom: 5px;
+    width:100%;
+    background-color: black;
+    color:white;
+    text-align: center;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
